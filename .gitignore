@@ -1,0 +1,13 @@
+build/
+output/
+outputs/
+work/
+private/
+input/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.zip

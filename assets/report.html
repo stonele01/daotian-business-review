@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{TITLE}}</title><style>{{CSS}}</style></head>
+<body>
+<aside><div class="brand"><img src="data:image/png;base64,{{LOGO}}" alt="稻田 · 公司 Logo"></div><div class="edition">BUSINESS REVIEW</div><nav class="nav" aria-label="分析主题"></nav><div class="aside-bottom">稻田<br>经营数据分析<br><small>事实 · 结构 · 行动</small></div></aside>
+<main class="main"><header class="topbar"><div class="period" id="period"></div><div class="top-actions"><button id="help">功能指南</button><button id="motion" aria-pressed="true">动效开启</button><button id="storyStart">开始讲解</button><button id="print">打印本页</button></div></header>
+<section id="guide" class="feature-guide" hidden><h2>从全盘变化，看到具体账号</h2><div class="feature-grid"><button data-route="overview"><strong>切换观察范围</strong><span>比较全部账号与剔除头部后的结构</span></button><button data-route="growth"><strong>点击账号图形</strong><span>联动高亮并打开诊断侧栏</span></button><button data-route="accounts"><strong>筛选与导出</strong><span>按代理商、变化类型查找账号，导出当前筛选</span></button><button data-route="efficiency"><strong>检查消耗效率</strong><span>查看两期比值和对称算术拆分</span></button><button data-route="targets"><strong>核对目标节奏</strong><span>显示同口径实绩、目标和所需日均</span></button><button id="guideStory"><strong>五步讲解</strong><span>方向键前后切换，Esc 结束；关闭动效仍可使用</span></button></div><p class="feature-footnote">图表支持悬停提示与图例开关；打印当前主题。桌面自动用满可用宽度。</p></section>
+<div id="views"></div><footer class="footer"><span>稻田 · 经营复盘　/　金额默认万元</span><span id="source"></span></footer></main>
+<section id="drawer" class="linked-drawer" hidden aria-label="账号诊断"><div class="drawer-head"><h2 id="drawerTitle"></h2><button id="drawerClose" aria-label="关闭账号诊断">关闭</button></div><div id="drawerBody"></div><div id="drawerChart" class="chart short"></div></section>
+<section id="story" hidden aria-label="演示讲解"><span id="storyCount"></span><h3 id="storyTitle"></h3><p id="storyText"></p><div class="toolbar"><button id="storyPrev">上一步</button><button id="storyNext">下一步</button><button id="storyEnd">结束讲解</button></div></section>
+<script>{{ECHARTS}}</script><script>const D={{DATA}};</script><script>{{APP}}</script>
+</body></html>

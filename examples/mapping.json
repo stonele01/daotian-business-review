@@ -1,0 +1,131 @@
+{
+  "base": {
+    "schema_version": 1,
+    "meta": {
+      "title": "稻田 · Excel 映射示例",
+      "currency": "CNY",
+      "period": {
+        "start": "2030-04-01",
+        "end": "2030-04-15"
+      },
+      "baseline": {
+        "start": "2030-03-01",
+        "end": "2030-03-15"
+      }
+    },
+    "checks": {
+      "total_current": {
+        "$cell": "经营!B10"
+      },
+      "total_prior": {
+        "$cell": "经营!C10"
+      }
+    }
+  },
+  "account_blocks": [
+    {
+      "rows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "record": {
+        "name": {
+          "$cell": "经营!A{row}"
+        },
+        "agency": {
+          "$cell": "经营!H{row}"
+        },
+        "total": {
+          "current": {
+            "$cell": "经营!B{row}"
+          },
+          "prior": {
+            "$cell": "经营!C{row}"
+          }
+        },
+        "self": {
+          "current": {
+            "$cell": "经营!D{row}"
+          },
+          "prior": {
+            "$cell": "经营!E{row}"
+          }
+        },
+        "spend": {
+          "current": {
+            "$cell": "经营!F{row}"
+          },
+          "prior": {
+            "$cell": "经营!G{row}"
+          }
+        }
+      }
+    }
+  ],
+  "joins": [
+    {
+      "rows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "aliases": {
+        "示例青禾别名": "示例青禾"
+      },
+      "require_all": true,
+      "record": {
+        "name": {
+          "$cell": "渠道!A{row}"
+        },
+        "check_total": {
+          "current": {
+            "$cell": "渠道!B{row}"
+          },
+          "prior": {
+            "$cell": "渠道!C{row}"
+          }
+        },
+        "channels": [
+          {
+            "name": "短视频",
+            "current": {
+              "$cell": "渠道!D{row}"
+            },
+            "prior": {
+              "$cell": "渠道!E{row}"
+            }
+          },
+          {
+            "name": "直播与录播",
+            "current": {
+              "$cell": "渠道!F{row}"
+            },
+            "prior": {
+              "$cell": "渠道!G{row}"
+            }
+          },
+          {
+            "name": "商品卡",
+            "current": {
+              "$cell": "渠道!H{row}"
+            },
+            "prior": {
+              "$cell": "渠道!I{row}"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

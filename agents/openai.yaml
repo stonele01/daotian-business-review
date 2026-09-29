@@ -1,0 +1,4 @@
+interface:
+  display_name: "稻田经营复盘"
+  short_description: "核验经营数据并生成保留稻田品牌的可交互周报月报与重算表"
+  default_prompt: "使用 $daotian-business-review 核验这份经营报表，生成带账号联动和演示讲解的稻田品牌分析报告。"

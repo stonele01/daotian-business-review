@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "title": "稻田 · 示例经营复盘",
+    "currency": "CNY",
+    "source": "模拟数据，不代表实际经营",
+    "period": {
+      "start": "2030-04-01",
+      "end": "2030-04-15"
+    },
+    "baseline": {
+      "start": "2030-03-01",
+      "end": "2030-03-15"
+    },
+    "target_context": {
+      "start": "2030-04-01",
+      "as_of": "2030-04-15",
+      "actual_is_month_to_date": true,
+      "scope": "模拟全盘月 GMV",
+      "amount": 1100000,
+      "actual": 471000
+    }
+  },
+  "accounts": [
+    {
+      "name": "示例青禾",
+      "agency": "示例一组",
+      "total": {
+        "current": 170000,
+        "prior": 90000
+      },
+      "self": {
+        "current": 86000,
+        "prior": 42000
+      },
+      "spend": {
+        "current": 20000,
+        "prior": 12000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 85000,
+          "prior": 45000
+        },
+        {
+          "name": "直播与录播",
+          "current": 51000,
+          "prior": 27000
+        },
+        {
+          "name": "商品卡",
+          "current": 34000,
+          "prior": 18000
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 374000.00000000006,
+        "actual": 170000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例远山",
+      "agency": "示例二组",
+      "total": {
+        "current": 64000,
+        "prior": 70000
+      },
+      "self": {
+        "current": 27000,
+        "prior": 39000
+      },
+      "spend": {
+        "current": 15000,
+        "prior": 13000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 32000,
+          "prior": 35000
+        },
+        {
+          "name": "直播与录播",
+          "current": 19200,
+          "prior": 21000
+        },
+        {
+          "name": "商品卡",
+          "current": 12800,
+          "prior": 14000
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 140800.0,
+        "actual": 64000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例云川",
+      "agency": "示例一组",
+      "total": {
+        "current": 85000,
+        "prior": 50000
+      },
+      "self": {
+        "current": 28000,
+        "prior": 30000
+      },
+      "spend": {
+        "current": 11500,
+        "prior": 10000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 42500,
+          "prior": 25000
+        },
+        {
+          "name": "直播与录播",
+          "current": 25500,
+          "prior": 15000
+        },
+        {
+          "name": "商品卡",
+          "current": 17000,
+          "prior": 10000
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 187000.00000000003,
+        "actual": 85000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例木棉",
+      "agency": "示例二组",
+      "total": {
+        "current": 40000,
+        "prior": 45000
+      },
+      "self": {
+        "current": 19000,
+        "prior": 25000
+      },
+      "spend": {
+        "current": 9000,
+        "prior": 8000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 20000,
+          "prior": 22500
+        },
+        {
+          "name": "直播与录播",
+          "current": 12000,
+          "prior": 13500
+        },
+        {
+          "name": "商品卡",
+          "current": 8000,
+          "prior": 9000
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 88000.0,
+        "actual": 40000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例星野",
+      "agency": "示例一组",
+      "total": {
+        "current": 39000,
+        "prior": 35000
+      },
+      "self": {
+        "current": 15500,
+        "prior": 14000
+      },
+      "spend": {
+        "current": 4800,
+        "prior": 5000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 19500,
+          "prior": 17500
+        },
+        {
+          "name": "直播与录播",
+          "current": 11700,
+          "prior": 10500
+        },
+        {
+          "name": "商品卡",
+          "current": 7800,
+          "prior": 7000
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 85800.0,
+        "actual": 39000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例林间",
+      "agency": "示例二组",
+      "total": {
+        "current": 35000,
+        "prior": 28000
+      },
+      "self": {
+        "current": 16000,
+        "prior": 12000
+      },
+      "spend": {
+        "current": 4200,
+        "prior": 4000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 17500,
+          "prior": 14000
+        },
+        {
+          "name": "直播与录播",
+          "current": 10500,
+          "prior": 8400
+        },
+        {
+          "name": "商品卡",
+          "current": 7000,
+          "prior": 5600
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 77000.0,
+        "actual": 35000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例晨光",
+      "agency": "示例一组",
+      "total": {
+        "current": 18000,
+        "prior": 22000
+      },
+      "self": {
+        "current": 9000,
+        "prior": 11000
+      },
+      "spend": {
+        "current": 1000,
+        "prior": 0
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 9000,
+          "prior": 11000
+        },
+        {
+          "name": "直播与录播",
+          "current": 5400,
+          "prior": 6600
+        },
+        {
+          "name": "商品卡",
+          "current": 3600,
+          "prior": 4400
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 39600.0,
+        "actual": 18000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    },
+    {
+      "name": "示例溪谷",
+      "agency": "示例二组",
+      "total": {
+        "current": 20000,
+        "prior": 12000
+      },
+      "self": {
+        "current": 11000,
+        "prior": 6000
+      },
+      "spend": {
+        "current": 2800,
+        "prior": 2000
+      },
+      "channels": [
+        {
+          "name": "短视频",
+          "current": 10000,
+          "prior": 6000
+        },
+        {
+          "name": "直播与录播",
+          "current": 6000,
+          "prior": 3600
+        },
+        {
+          "name": "商品卡",
+          "current": 4000,
+          "prior": 2400
+        }
+      ],
+      "source_refs": [
+        "模拟数据，无对应真实账号"
+      ],
+      "target": {
+        "amount": 44000.0,
+        "actual": 20000,
+        "scope": "模拟账号全口径月 GMV"
+      }
+    }
+  ],
+  "checks": {
+    "total_current": 471000,
+    "total_prior": 352000,
+    "self_current": 211500,
+    "self_prior": 179000
+  },
+  "targets": [
+    {
+      "name": "示例全盘",
+      "amount": 1100000,
+      "actual": 471000,
+      "scope": "含全部模拟账号"
+    },
+    {
+      "name": "示例自营",
+      "amount": 520000,
+      "actual": 211500,
+      "scope": "模拟自营范围"
+    }
+  ],
+  "history": [
+    {
+      "title": "独立历史短视频专题",
+      "period": {
+        "start": "2030-03-01",
+        "end": "2030-03-15"
+      },
+      "baseline": {
+        "start": "2030-02-01",
+        "end": "2030-02-15"
+      },
+      "metrics": [
+        {
+          "key": "views",
+          "label": "曝光次数",
+          "unit": "次",
+          "integer": true
+        },
+        {
+          "key": "clicks",
+          "label": "商品点击人数",
+          "unit": "人",
+          "integer": true
+        },
+        {
+          "key": "buyers",
+          "label": "成交人数",
+          "unit": "人",
+          "integer": true
+        },
+        {
+          "key": "ctr",
+          "label": "商品点击率",
+          "unit": "%",
+          "numerator": "clicks",
+          "denominator": "views"
+        },
+        {
+          "key": "cvr",
+          "label": "点击后成交率",
+          "unit": "%",
+          "numerator": "buyers",
+          "denominator": "clicks"
+        }
+      ],
+      "rows": [
+        {
+          "name": "示例青禾",
+          "values": {
+            "views": {
+              "current": 10000,
+              "prior": 9000
+            },
+            "clicks": {
+              "current": 800,
+              "prior": 850
+            },
+            "buyers": {
+              "current": 100,
+              "prior": 115
+            }
+          }
+        },
+        {
+          "name": "示例远山",
+          "values": {
+            "views": {
+              "current": 12000,
+              "prior": 10800
+            },
+            "clicks": {
+              "current": 860,
+              "prior": 925
+            },
+            "buyers": {
+              "current": 110,
+              "prior": 126
+            }
+          }
+        },
+        {
+          "name": "示例云川",
+          "values": {
+            "views": {
+              "current": 14000,
+              "prior": 12600
+            },
+            "clicks": {
+              "current": 920,
+              "prior": 1000
+            },
+            "buyers": {
+              "current": 120,
+              "prior": 137
+            }
+          }
+        },
+        {
+          "name": "示例木棉",
+          "values": {
+            "views": {
+              "current": 16000,
+              "prior": 14400
+            },
+            "clicks": {
+              "current": 980,
+              "prior": 1075
+            },
+            "buyers": {
+              "current": 130,
+              "prior": 148
+            }
+          }
+        },
+        {
+          "name": "示例星野",
+          "values": {
+            "views": {
+              "current": 18000,
+              "prior": 16200
+            },
+            "clicks": {
+              "current": 1040,
+              "prior": 1150
+            },
+            "buyers": {
+              "current": 140,
+              "prior": 159
+            }
+          }
+        }
+      ],
+      "notes": [
+        "全部为模拟数据；跨账号人数未去重。"
+      ]
+    }
+  ],
+  "issues": [
+    "示例晨光上期消耗为 0，历史比值缺失，不参与两期比值下降统计。"
+  ],
+  "commentary": {
+    "facts": [
+      {
+        "text": "示例数据用于验证组件和计算，不对应真实公司经营。",
+        "evidence": "人工构造 fixture"
+      }
+    ],
+    "hypotheses": [
+      {
+        "text": "消耗增加而自营下降的账号，需核查投放内容和成交口径，暂不能确定原因。",
+        "evidence": "账号两期变化，尚无投放归因明细"
+      }
+    ],
+    "actions": [
+      {
+        "text": "优先核查自营下降账号的口径、内容与成交来源。",
+        "evidence": "账号诊断明细"
+      }
+    ]
+  }
+}
