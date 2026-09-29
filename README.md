@@ -6,6 +6,11 @@
 
 ## 直接使用
 
+```bash
+gh repo clone stonele01/daotian-business-review
+cd daotian-business-review
+```
+
 需要 Python 3.10+，不需要 Node、前端构建、模型 API 或在线图表服务。
 
 ```bash
@@ -79,3 +84,5 @@ python scripts/review.py build --input build/fixture/input.json --out build/from
 技能按 [Agent Skills 标准](https://agentskills.io/specification) 和 [技能编写最佳实践](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) 组织：短入口、按需参考文档、固定脚本、独立模拟样例与回归测试。跨模型能力边界见 [portability.md](references/portability.md)。
 
 仓库不包含原始经营工作簿、会议正文、真实分析结果或身份凭据。生成物和私人输入由 .gitignore 排除。第三方库说明见 [THIRD_PARTY.md](THIRD_PARTY.md)。
+
+原创代码与文档采用 [MIT License](LICENSE)。公司 Logo 作为品牌参考单独保留，第三方库保留各自声明。其他团队可以替换 `assets/brand/company-logo.png` 与品牌配色后使用自己的品牌版本。

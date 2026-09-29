@@ -5,7 +5,7 @@ from pathlib import Path
 import shutil
 
 ROOT=Path(__file__).resolve().parent.parent
-INCLUDE=('SKILL.md','README.md','THIRD_PARTY.md','QA.md','requirements.txt','agents','assets','examples','references','scripts','tests')
+INCLUDE=('SKILL.md','README.md','LICENSE','THIRD_PARTY.md','QA.md','requirements.txt','agents','assets','examples','references','scripts','tests')
 
 
 def install(dest,update=False):
